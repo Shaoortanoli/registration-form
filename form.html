@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="www.example.com/login.php" method="get">
+        <fieldset>
+            <legend>Personal Details</legend>
+        First Name: 
+        <input type="text" name=" First Name" size="30" maxlength="100" required>
+        Last Name:
+        <input type="text" name="Last Name" size="30" maxlength="100" required>
+        <p>
+            Gender:
+            <input id="male"type ="radio" name="gender" value="m">
+            <label for="male">male</label>
+
+           <label><input type="radio" name="gender" value="f">female</label>
+        </p>
+        <p>
+            Date Of Birth:
+            <input type="date" name="dob">
+        </p>
+        <p>
+            Enter Your Email Address:
+            <br>
+            <input type="email" name="email">
+        </p>
+        <p>
+            Favourite Hobbies:
+             <input type="checkbox">cricket
+             <input type="checkbox">travel
+             <input type="checkbox">movies
+             <input type="checkbox">reading
+             <p>
+                Nationality:
+                <select name="countries">
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="China">China</option>
+                    <option value="Usa">Usa</option>
+                    <option value="Iran">Iran</option>
+                    <option value="Afghanistan">Afghanistan</option>
+                    <option value="England">England</option>
+                </select>
+             </p>
+             </fieldset>
+        <p>
+        Passsword:
+        <input type="password" name="password" size=" 30" maxlength="100">
+        </p>
+        <p>
+            Re-enter password:
+            <input type="password" name="password" size="30" maxlength="100">
+        </p>
+        <p>
+        Comments:
+         </p>   
+            <textarea name="comments" rows="4" cols="30"> Enter your comments...</textarea>
+         <p>
+            Upload profile picture:
+        </p>
+            <input type="file" name="dp">
+            <br>
+            <br>
+            <input type="submit" value="upload">
+            
+            <input type="submit">
+    </form>
+    
+    
+</body>
+</html>
